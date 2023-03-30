@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/progress-bar.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    <button type="button" data-filter="all">All</button>
+    <button type="button" data-filter=".dog">Dog</button>
+    <button type="button" data-filter=".cat">Cat</button>
+    <button type="button" data-filter=".bird">Bird</button>
+
+
+    <div class="mixitup">
+        <div class="mix dog" data-order="1">
+            <img src="images/dog.jpg" alt="">
+        </div>
+        <div class="mix cat" data-order="2">
+            <img src="images/cat.jpg" alt="">
+        </div>
+        <div class="mix bird" data-order="3">
+            <img src="images/bird-1.jpg" alt="">
+        </div>
+        <div class="mix bird" data-order="4">
+            <img src="images/bird-2.jpg" alt="">
+        </div>
+    </div>
+    
+
+
+    <div class="progress-bar">
+        <div class="progress" 
+             data-percent="80" 
+             data-color="pink">
+             <span>20%</span>
+        </div>
+      </div>
+      
+    <div class="progress-bar">
+        <div class="progress" 
+             data-percent="50" 
+             data-color="green">
+             <span>20%</span>
+        </div>
+      </div>
+    <div class="progress-bar">
+        <div class="progress" 
+             data-percent="80" 
+             data-color="yellow">
+             <span>20%</span>
+        </div>
+      </div>
+
+    <div class="progress-bar">
+        <div class="progress" 
+             data-percent="50" 
+             data-color="orange">
+             <span>20%</span>
+        </div>
+      </div>
+
+
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/progress-bar.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
