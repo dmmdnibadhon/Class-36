@@ -1,3 +1,31 @@
+/* Filter-plugin start */
 img{
     width: 150px;
 }
+/* Filter-plugin end */
+
+/* Progress bar start */
+.progress-bar {
+    /* width: 300px;
+    margin: 1.5rem auto;
+    margin-top: 100px;
+    background-color: #ddd;
+    border-radius: 6px; */
+    height: 10px;
+}
+.progress {
+    /* width: 0;
+    border-radius: 6px; */
+    height: 10px;
+    /* text-align: right;
+    position: relative; */
+}
+.progress span {
+    font-size: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    color: white;
+}
+/* Progress bar end */
